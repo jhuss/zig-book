@@ -41,4 +41,17 @@ format:
     theme:
       light: cosmo
       dark: darkly
-
+  pdf:
+    documentclass: book
+    papersize: a4
+    linestretch: 1.25
+    geometry:
+      - top=30mm
+      - bottom=30mm
+      - right=35mm
+      - left=35mm
+    mainfont: "TeX Gyre Pagella"
+    sansfont: "Open Sans"
+    monofont: "Fira Code"
+    highlight-style: nord
+    output-file: zig-book
